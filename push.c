@@ -15,7 +15,7 @@ void lets_push(stack_t **top, unsigned int idx)
 		fprintf(stderr, "L%d: usage: push integer\n", idx);
 		fclose(doremi.bagg);
 		free(doremi.dits);
-		lib_stack(*top, idx);
+		lib_stack(top, idx);
 		exit(EXIT_FAILURE);
 	}
 	for (; doremi.arg[k] != '\0'; k++)
@@ -25,7 +25,7 @@ void lets_push(stack_t **top, unsigned int idx)
 			fprintf(stderr, "L%d: usage: push integer\n", idx);
 			fclose(doremi.bagg);
 			free(doremi.dits);
-			lib_stack(*top, idx);
+			lib_stack(top, idx);
 			exit(EXIT_FAILURE);
 		}
 	}

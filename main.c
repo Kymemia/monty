@@ -1,6 +1,6 @@
 #include "monty.h"
 #include <stdio.h>
-
+atoxz doremi = {NULL, NULL, NULL, 0, NULL};
 /**
  */
 int main(int argc, char *argv[])

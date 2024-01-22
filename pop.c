@@ -12,7 +12,7 @@ void to_pop(stack_t **top, unsigned int idx)
 		fprintf(stderr, "L%d: can't pop an empty stack\n", idx);
 		fclose(doremi.bagg);
 		free(doremi.dits);
-		lib_stack(*top);
+		lib_stack(top, idx);
 		exit(EXIT_FAILURE);
 	}
 

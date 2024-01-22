@@ -18,7 +18,7 @@ void to_sub(stack_t **top, unsigned int idx)
 	if (nodes < 2)
 	{
 		fprintf(stderr, "L%d: can't sub, stack too short\n", idx);
-		lib_stack(*top);
+		lib_stack(top, idx);
 		fclose(doremi.bagg);
 		free(doremi. dits);
 		exit(EXIT_FAILURE);
